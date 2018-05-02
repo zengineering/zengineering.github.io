@@ -58,7 +58,7 @@ It turns out that (as usual), compiler error messages are sometimes more helpful
 Exception in thread "main" java.io.FileNotFoundException: file:/<path to project>/build/install/<project name>/lib/<project name>.jar!/resource.txt (No such file or directory)
 ```
 
-I assumed */.../lib/project_name.jar!/resource.txt* was just pretty-printing the fact that the file was inside a jar. Howver, since that was a String being passed to the contructor of ```File```, ```File``` takes it literally, and indeed there is no file at that path. In contrast, ```java.lang.Class.getResourceAsStream``` handles the file I/O, rather than simply returning a URL to the file, and avoids my earlier string buffoonery.
+I assumed */.../lib/project_name.jar!/resource.txt* was just pretty-printing the fact that the file was inside a jar. Howver, since that was a String being passed to the contructor of ```File```, ```File``` takes it literally, and indeed there is no file at that path. In contrast, ```java.lang.Class.getResourceAsStream``` handles the file I/O itself rather than simply returning a URL to the file, thus avoiding my earlier string buffoonery.
 
 I ended up with this gem:
 
