@@ -24,7 +24,7 @@ The ```private``` modifier is necessary to satisfy the compiler's encapsulation 
 Now that we can ```getResource```, here we go: 
 
 ```kotlin
-File(topLevelClass.getResource("resource.txt").file).forEachLine {
+File(topLevelClass.getResource("/resource.txt").file).forEachLine {
     ...
 }
 ```
