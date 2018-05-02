@@ -68,9 +68,8 @@ topLevelClass.getResourceAsStream("resource.txt").bufferedReader().lineSequence(
 }
 ```
 
-This uses some Kotlin extension methods to read the file line-by-line.
+This uses some [kotlin.io](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/index.html) extension methods to read the file line-by-line.
 
-
-Hopefully this entry will save other jar-distribution-newbies some time and sanity.
+I'm sure there is some other fix for resolving the file path, but this works just fine. Hopefully my journey will save other jar-distribution-newbies some time and sanity.
 
 
