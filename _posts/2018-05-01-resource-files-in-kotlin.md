@@ -13,7 +13,7 @@ This obviously requires a Class object, but I was using a top-level function in 
 private val topLevelClass = object: Any() {}.javaClass
 ```
 
-This line defines an anonymous object and gets its class; this object needs to be defined at the top-level of the file.
+This line defines an anonymous object and gets its class; said object needs to be defined at the top-level of the file.
 The ```private``` modifier is necessary to satisfy the compiler's encapsulation requirements; without it we get:
 
 ```
