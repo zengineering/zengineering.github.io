@@ -4,7 +4,7 @@ A collection of self-documenting posts of fun/neat/tricky problems I've encoutne
 
 
 ## Recent Posts:
-- [Resource files in a Kotlin distrubution](2018-05-01-resource-files-in-kotlin-distribution.md)
+- [Resource files in a Kotlin distrubution](_posts/2018-05-01-resource-files-in-kotlin-distribution.md)
 
 
 ## Quotable Quotes
