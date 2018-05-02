@@ -24,9 +24,9 @@ The ```private``` modifier is necessary to satisfy the compiler's encapsulation 
 Now that we can ```getResource```, here we go: 
 
 ```kotlin
-    File(topLevelClass.getResource("resource.txt").file).forEachLine {
-        ...
-    }
+File(topLevelClass.getResource("resource.txt").file).forEachLine {
+    ...
+}
 ```
 Breaking this down:
 - getResource(filename) accepts a String and returns a ```java.net.URL```. The string is the name of the resource file we are trying to retrieve, e.g. */resource.txt*. It's important to include the preceding "*/*", which says "look in the root directory of the resource path" (in our case, src/main/resources/). Alternatively you could specify */subdir/resource/txt*.
@@ -63,9 +63,9 @@ I assumed */.../lib/<project name>.jar!/resource.txt* was just pretty-printing t
 I ended up with this gem:
 
 ```kotlin
-    topLevelClass.getResourceAsStream("resource.txt").bufferedReader().lineSequence().forEach {
-        ...
-    }
+topLevelClass.getResourceAsStream("resource.txt").bufferedReader().lineSequence().forEach {
+    ...
+}
 ```
 
 This uses some Kotlin extension methods to read the file line-by-line.
