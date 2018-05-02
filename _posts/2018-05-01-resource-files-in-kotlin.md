@@ -46,7 +46,7 @@ I should note that I was running this from Gradle's [distribution](https://docs.
 
 I unzipped the installed jar to find... *src/main/resources/resource.txt* sitting there in all it's of glory.
 
-With a mild amount if infuriation, I continued to scour the internet for the answer. I found a few instances of using [```java.lang.Class.getResourceAsStream```](https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#getResourceAsStream-java.lang.String-) instead of ```java.lang.Class.getResource```. For a sanity check, I tried it out.
+With a mild amount of infuriation, I continued to scour the internet for the answer. I found a few instances of using [```java.lang.Class.getResourceAsStream```](https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#getResourceAsStream-java.lang.String-) instead of ```java.lang.Class.getResource```. For a sanity check, I tried it out.
 
 It worked. 
 
