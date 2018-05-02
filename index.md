@@ -7,7 +7,8 @@ A collection of self-documenting posts of fun/neat/tricky problems I've encoutne
 - [Resource files in a Kotlin distrubution](_posts/2018-05-01-resource-files-in-kotlin-distribution.md)
 
 
-## Quotable Quotes
+
+# Quotable Quotes
 > It's the questions we can't answer that teach us the most. They teach us how to think. If you give a man an answer, all he gains is a little fact. But give him a question and he'll look for his own answers. ― Patrick Rothfuss, The Wise Man's Fear 
 
 > Half of seeming clever is keeping your mouth shut at the right times. ― Patrick Rothfuss, The Wise Man's Fear 
