@@ -1,4 +1,4 @@
-# Resource Files in Kotlin
+# Resource Files in a Kotlin Distribution
 
 I'm working on a Kotlin project, and decided to include a data file in the project rather than supplying it as a command line argument. Having not packaged many Java projects before, I learned that the process is not terribly straightforward.
 
