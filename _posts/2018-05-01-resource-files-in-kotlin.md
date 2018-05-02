@@ -29,7 +29,7 @@ File(topLevelClass.getResource("/resource.txt").file).forEachLine {
 }
 ```
 Breaking this down:
-- getResource(filename) accepts a String and returns a ```java.net.URL```. The string is the name of the resource file we are trying to retrieve, e.g. */resource.txt*. It's important to include the preceding "*/*", which says "look in the root directory of the resource path" (in our case, src/main/resources/). Alternatively you could specify */subdir/resource/txt*.
+- getResource(filename) accepts a String and returns a ```java.net.URL```. The string is the name of the resource file we are trying to retrieve, e.g. */resource.txt*. It's important to include the preceding "*/*", which says "look in the root directory of the resource path" (in our case, src/main/resources/). Alternatively you could specify */subdir/resource.txt*.
 - [```java.lang.URL.getFile```](https://docs.oracle.com/javase/8/docs/api/java/net/URL.html) (Kotlin-ified to just ```.file``` here) ["Gets the file name of this URL"](https://docs.oracle.com/javase/8/docs/api/java/net/URL.html#getFile--) and returns a String.
 - Pass the file name to the ```File``` constructor.
 - Iterate through each line of the file
