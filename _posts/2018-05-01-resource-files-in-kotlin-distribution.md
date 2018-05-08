@@ -44,6 +44,8 @@ Exception in thread "main" java.io.FileNotFoundException: file:/<path to project
 
 *Ok...*
 
+### Debugging
+
 I should note that I was running this from Gradle's [distribution](https://docs.gradle.org/current/userguide/distribution_plugin.html) install. I assumed that Gradle didn't package up the resources with the distribution jar. That theory went down with an equally unsuccessful ```./gradlew run```, and some digging that revealed the aforementioned automatic packing of resource files in *src/main/resources*.
 
 I unzipped the installed jar to find... *src/main/resources/resource.txt* sitting there in all it's of glory.
@@ -61,6 +63,8 @@ Exception in thread "main" java.io.FileNotFoundException: file:/<path to project
 ```
 
 I assumed */.../lib/project_name.jar!/resource.txt* was just pretty-printing the fact that the file was inside a jar. Howver, since that was a String being passed to the contructor of ```File```, ```File``` takes it literally, and indeed there is no file at that path. In contrast, ```java.lang.Class.getResourceAsStream``` handles the file I/O itself rather than simply returning a URL to the file, thus avoiding my earlier string buffoonery.
+
+### Conclusion
 
 I ended up with this gem:
 
