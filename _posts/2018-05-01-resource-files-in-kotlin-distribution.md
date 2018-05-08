@@ -65,13 +65,14 @@ I assumed */.../lib/project_name.jar!/resource.txt* was just pretty-printing the
 I ended up with this gem:
 
 ```kotlin
-topLevelClass.getResourceAsStream("resource.txt").bufferedReader().lineSequence().forEach {
+topLevelClass.getResourceAsStream("resource.txt").use { stream ->
     ...
 }
 ```
 
-This uses some [kotlin.io](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/index.html) extension methods to read the file line-by-line.
+This calls [```kotlin.io.use```](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/use.html), an extension method on ```Closeable``` objects that "Executes the given block function on this resource and then closes it down correctly whether an exception is thrown or not."
 
-I'm sure there is some other fix for resolving the file path, but this works just fine. Hopefully my journey will save other jar-distribution-newbies some time and sanity.
 
+
+I'm sure there are other fixes for resolving resource file paths, but this seems to work just fine. Hopefully this journey will save other jar-distribution-newbies some time and sanity.
 
