@@ -37,9 +37,9 @@ It also points out that Creed has very few lines in each episode; when he does s
 
 ![lines_per_episode_stdev](/_images/the-office-lines-per-episode-std.png)
 The standard deviation (stdev) of the previous plot shows the inconsistency of some character's presence.
-Michael has a huge stdev, likely because he dominated the first seven seasons, and had two lines in the final two seasons.
-Holly and Deangelo waver significantly in their amounts of dialogue in each episode.A
-What may be more interesting is that the long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed, and Stanley are relatively consistent in their smaller roles.
+Michael has a huge stdev, likely because he dominated the first seven seasons, but only had two lines in the final two seasons.
+Holly and Deangelo waver significantly in their amounts of dialogue in each episode.
+Long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed, and Stanley are relatively consistent in their reserved roles.
 
 
 ## Coming soon:
