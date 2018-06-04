@@ -17,7 +17,7 @@ What is surprising is how much of a lead he has, given that he was almost entire
 Also noteworthy is that other main characters (Dwight, Jim, Pam, and Andy) all have substantially more dialogue than the rest of the crew.
 
 ## Appearances with at least one line
-![episodes](/images/the-office-episodes.png)
+![episodes](images/the-office-episodes.png)
 This shows the number of episodes in which a character had at least one line of dialogue.
 It's about what you'd expect, with the core group appearing in the most episodes.
 Interestingly, Andy (introduced in season 3), is a bit ahead of some full-series characters like Kelly, Ryan, Meredith, and Toby.
