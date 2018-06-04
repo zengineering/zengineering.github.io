@@ -12,7 +12,7 @@ All plots only consider characters that had at least 100 lines throughout the sh
 ## Lines of dialogue for each character
 ![lines](/_images/the-office-lines.png)
 Here we have a breakdown of the number of lines of dialogue for each character across each season.
-In a total unsurpising [fashion](https://www.dailywritingtips.com/the-spellings-of-shun/), Michael has the most to say throughout the series.
+In a totally unsurpising [fashion](https://www.dailywritingtips.com/the-spellings-of-shun/), Michael has the most to say throughout the series.
 What is surprising is how much of a lead he has, given that he was almost entirely absent from the final two seasons.
 Also noteworthy is that other main characters (Dwight, Jim, Pam, and Andy) all have substantially more dialogue than the rest of the crew.
 
