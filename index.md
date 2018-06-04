@@ -7,7 +7,7 @@ Also other things.
 
 ## Recent Posts:
 - [Resource files in a Kotlin distrubution](_posts/2018-05-01-resource-files-in-kotlin-distribution.md)
-- [The Office Dialogue](_posts/2018-06-04-the-office.md)
+- [The Office dialogue](_posts/2018-06-04-the-office.md)
 
 ___
 

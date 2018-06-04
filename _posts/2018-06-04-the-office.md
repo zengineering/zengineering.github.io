@@ -12,7 +12,7 @@ All plots only consider characters that had at least 100 lines throughout the sh
 ## Lines of dialogue for each character
 ![lines]({{"/images/the-office-lines.png"|absolute_url}})
 Here we have a breakdown of the number of lines of dialogue for each character across each season.
-In a total unsurpising [fashion](https://www.dailywritingtips.com/the-spellings-of-shun/), Michael has the most to say throughout the series.
+In a totally unsurpising [fashion](https://www.dailywritingtips.com/the-spellings-of-shun/), Michael has the most to say throughout the series.
 What is surprising is how much of a lead he has, given that he was almost entirely absent from the final two seasons.
 Also noteworthy is that other main characters (Dwight, Jim, Pam, and Andy) all have substantially more dialogue than the rest of the crew.
 
@@ -37,12 +37,12 @@ It also points out that Creed has very few lines in each episode; when he does s
 
 ![lines_per_episode_stdev](/images/the-office-lines-per-episode-std.png)
 The standard deviation (stdev) of the previous plot shows the inconsistency of some character's presence.
-Michael has a huge stdev, likely because he dominated the first seven seasons, and had two lines in the final two seasons.
-Holly and Deangelo waver significantly in their amounts of dialogue in each episode.A
-What may be more interesting is that the long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed, and Stanley are relatively consistent in their smaller roles.
+Michael has a huge stdev, likely because he dominated the first seven seasons, but only had two lines in the final two seasons.
+Holly and Deangelo waver significantly in their amounts of dialogue in each episode.
+Long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed, and Stanley are relatively consistent in their reserved roles.
 
 
 ## Coming soon:
-What percentage of the overall amount of dialogue does Michael have?
-What percentage of the overall amount of dialogue does the group of Michael, Dwight, Jim, Pam, and Andy have?
-How many episodes do Dwight, Jim, and Pam *not* appear in?
++ What percentage of the overall amount of dialogue does Michael have?
++ What percentage of the overall amount of dialogue does the group of Michael, Dwight, Jim, Pam, and Andy have?
++ How many episodes do Dwight, Jim, and Pam *not* appear in?
