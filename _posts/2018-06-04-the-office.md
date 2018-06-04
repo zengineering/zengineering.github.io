@@ -1,1 +1,1 @@
-![The Office](_images/the-office-lines.png)
+![The Office](zengineering.github.io/_images/the-office-lines.png)
