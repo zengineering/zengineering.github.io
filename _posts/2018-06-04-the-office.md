@@ -15,6 +15,11 @@ Here we have a breakdown of the number of lines of dialogue for each character a
 In a totally unsurpising [fashion](https://www.dailywritingtips.com/the-spellings-of-shun/), Michael has the most to say throughout the series.
 What is surprising is how much of a lead he has, given that he was almost entirely absent from the final two seasons.
 Also noteworthy is that other main characters (Dwight, Jim, Pam, and Andy) all have substantially more dialogue than the rest of the crew.
+Some pie will help drive that point home:
+
+![pie](/images/the-office-pie.png)
+Michael speaks over 22% of the lines in the entire show.
+Michael, Dwight, Jim, Pam, and Andy speak almost two-thirds of the entirety of the series dialogue.
 
 ## Appearances with at least one line
 ![episodes](/images/the-office-episodes.png)
@@ -43,6 +48,4 @@ Long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed
 
 
 ## Coming soon:
-+ What percentage of the overall amount of dialogue does Michael have?
-+ What percentage of the overall amount of dialogue does the group of Michael, Dwight, Jim, Pam, and Andy have?
 + How many episodes do Dwight, Jim, and Pam *not* appear in?
