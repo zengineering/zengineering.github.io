@@ -1,3 +1,3 @@
 # The Office
 
-![The Office](https://zengineering.github.io/_images/the-office-lines.png)
+![The Office]({{ site.url }}/_images/the-office-lines.png)
