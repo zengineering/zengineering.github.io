@@ -43,6 +43,6 @@ Long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed
 
 
 ## Coming soon:
-What percentage of the overall amount of dialogue does Michael have?
-What percentage of the overall amount of dialogue does the group of Michael, Dwight, Jim, Pam, and Andy have?
-How many episodes do Dwight, Jim, and Pam *not* appear in?
++ What percentage of the overall amount of dialogue does Michael have?
++ What percentage of the overall amount of dialogue does the group of Michael, Dwight, Jim, Pam, and Andy have?
++ How many episodes do Dwight, Jim, and Pam *not* appear in?
