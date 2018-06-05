@@ -53,7 +53,7 @@ fun main(args: Array<String>) {
     val nopRef = Int::nop
 
     // comiler error
-    println(x.nopRef())
+    // println(x.nopRef())
 
     // works
     println(nopRef(x))
