@@ -3,7 +3,7 @@
 [Kotlin](https://kotlinlang.org/) is a great language, and one of its killer features is [extensions](https://kotlinlang.org/docs/reference/extensions.html).
 
 The documentation stresses that [extensions are resolved statically](https://kotlinlang.org/docs/reference/extensions.html#extensions-are-resolved-statically). 
-I recently came across an interesting artifact that appears to be a side effect of this.
+I recently came across an interesting situation that appears to be a side effect of this fact.
 
 Here's my contrived, StackOverflow-appropriate example:
 
