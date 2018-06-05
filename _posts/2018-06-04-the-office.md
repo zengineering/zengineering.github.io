@@ -23,8 +23,10 @@ Michael, Dwight, Jim, Pam, and Andy speak almost two-thirds of the entirety of t
 
 ## Appearances with at least one line
 ![episodes](/images/the-office-episodes.png)
-This shows the number of episodes in which a character had at least one line of dialogue.
+This plot shows the number of episodes in which a character had at least one line of dialogue.
 It's about what you'd expect, with the core group appearing in the most episodes.
+Dwight is the only character to appear and speak in every episode.
+Jim is in all but one episode, and Pam is in all but four.
 Interestingly, Andy (introduced in season 3), is a bit ahead of some full-series characters like Kelly, Ryan, Meredith, and Toby.
 Those are somewhat minor characters, though, and some of them were absent for most or all of at least one season.
 
