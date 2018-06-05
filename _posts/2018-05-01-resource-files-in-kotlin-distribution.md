@@ -1,5 +1,4 @@
 # Resource Files in a Kotlin Distribution
-
 ###### *01 May 2018*
 
 ![Kotlin](https://logos-download.com/wp-content/uploads/2016/10/Kotlin_logo_wordmark.png)

@@ -1,5 +1,4 @@
 # Kotlin Extension Methods
-
 ###### *05 June 2018*
 
 ![Kotlin](https://logos-download.com/wp-content/uploads/2016/10/Kotlin_logo_wordmark.png)
