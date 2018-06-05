@@ -6,7 +6,6 @@ The documentation stresses that [extensions are resolved statically](https://kot
 I recently came across an interesting situation that appears to be a side effect of this fact.
 
 Here's my contrived, StackOverflow-appropriate example:
-
 ```Kotlin
 
 // extremely useful extension method
@@ -26,7 +25,6 @@ As you'd expect, the output is:
 ```
 
 However, something interesting happens when trying to use a [reference](https://kotlinlang.org/docs/reference/reflection.html#function-references) to this extremely useful extension method:
-
 ```Kotlin
 // extremely useful extension method
 fun Int.nop() = this
