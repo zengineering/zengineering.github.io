@@ -6,7 +6,7 @@ The documentation stresses that [extensions are resolved statically](https://kot
 I recently came across an interesting situation that appears to be a side effect of this fact.
 
 Here's my contrived, StackOverflow-appropriate example:
-```Kotlin
+```kotlin
 
 // extremely useful extension method
 fun Int.nop() = this
@@ -25,7 +25,7 @@ As you'd expect, the output is:
 ```
 
 However, something interesting happens when trying to use a [reference](https://kotlinlang.org/docs/reference/reflection.html#function-references) to this extremely useful extension method:
-```Kotlin
+```kotlin
 // extremely useful extension method
 fun Int.nop() = this
 
@@ -44,7 +44,7 @@ Extensions.kt:11:15: error: unresolved reference: nopRef
 ```
 
 After a bout of head-to-desk interaction and referencing the aforementioned documentation concerning static resolution, I found that using the following variation compiled just fine and produced the same ```4``` we saw earlier.
-```Kotlin
+```kotlin
 // extremely useful extension method
 fun Int.nop() = this
 
