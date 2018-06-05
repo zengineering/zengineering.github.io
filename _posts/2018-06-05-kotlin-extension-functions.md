@@ -43,7 +43,7 @@ Extensions.kt:11:15: error: unresolved reference: nopRef
               ^
 ```
 
-After a bout of head-to-desk interaction and referencing the aforementioned documentation concerning static resolution, I found that using this variation compiled just fine and produced the same ```4``` we saw earlier.
+After a bout of head-to-desk interaction and referencing the aforementioned documentation concerning static resolution, I found that using the following variation compiled just fine and produced the same ```4``` we saw earlier.
 ```Kotlin
 // extremely useful extension method
 fun Int.nop() = this
