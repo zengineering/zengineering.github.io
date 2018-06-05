@@ -1,5 +1,3 @@
-# The Office Dialogue
-
 According to "science", [The Office](https://www.imdb.com/title/tt0386676/) is a fantastic show. 
 I did some analysis of the dialogue in the show and plotted some results because data is great and statistics are fun.
 
