@@ -63,7 +63,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-The extension method seems to lose its extension-ness™, but otherwise functions (:sunglasses:) the same. 
+The extension method seems to lose its extension-ness™, but otherwise [functions](https://www.youtube.com/watch?v=7uW47jWLMiY) the same. 
 I'm still not sure what exactly causes this behavior, or if it's something that can be fixed by the Kotlin developers.
 
 I'm also not sure how to conclude this post with the right mix of summary, brevity, and wit.
