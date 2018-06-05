@@ -48,6 +48,3 @@ Michael has a huge stdev, likely because he dominated the first seven seasons, b
 Holly and Deangelo waver significantly in their amounts of dialogue in each episode.
 Long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed, and Stanley are relatively consistent in their reserved roles.
 
-
-## Coming soon:
-+ How many episodes do Dwight, Jim, and Pam *not* appear in?
