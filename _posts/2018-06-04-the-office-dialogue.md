@@ -20,7 +20,7 @@ Some pie will help drive that point home:
 
 ![pie](/images/the-office-pie.png)
 Michael speaks over 22% of the lines in the entire show.
-Michael, Dwight, Jim, Pam, and Andy speak almost two-thirds of the entirety of the series dialogue.
+Michael, Dwight, Jim, Pam, and Andy collectively speak almost two-thirds of the entirety of the series dialogue.
 
 ## Appearances with at least one line
 ![episodes](/images/the-office-episodes.png)
@@ -33,7 +33,7 @@ Those are somewhat minor characters, though, and some of them were absent for mo
 
 ## Lines per episode
 ![lines_per_episode_seasonal](/images/the-office-lines-per-episode-seasonal.png)
-Breaking it down a bit, here we have the number of lines per episode across all seasons (i.e. the sum of all season averages).
+Breaking it down a bit, here we have the number of lines per episode across all seasons (i.e. the sum of each season's average lines-per-episode).
 Again, the core group of Michael, Dwight, Jim, Pam, and Andy lead the pack.
 Of note are Holly, Jan, David Wallace, and Deangelo, who are in fewer episodes but have more to say when they are present.
 
@@ -41,10 +41,10 @@ Of note are Holly, Jan, David Wallace, and Deangelo, who are in fewer episodes b
 Disregarding seasons, the overall lines-per-episode numbers are a bit different.
 (This is the total number of lines a character has vs the total number of episodes they appear in).
 This presentation makes it more obvious that high-profile guest characters (Deangelo, Charles, Jan, Robert California) tend to be the focus when they are around.
-It also points out that Creed has very few lines in each episode; when he does speak, it's superb.
+It also points out that Creed has very few lines in each episode. When he does speak, it's superb.
 
 ![lines_per_episode_stdev](/images/the-office-lines-per-episode-std.png)
-The standard deviation (stdev) of the previous plot shows the inconsistency of some character's presence.
+The standard deviation (stdev) of the previous plot shows the inconsistency of some characters' presence.
 Michael has a huge stdev, likely because he dominated the first seven seasons, but only had two lines in the final two seasons.
 Holly and Deangelo waver significantly in their amounts of dialogue in each episode.
 Long-term secondary characters like Kevin, Oscar, Toby, Meredith, Phyllis, Creed, and Stanley are relatively consistent in their reserved roles.
