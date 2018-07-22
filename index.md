@@ -1,6 +1,6 @@
 # Zengineering
 
-A collection of documenting posts for interesting problems I've encoutnered.
+A set of documenting posts for interesting problems I've encountered.
 Also other things.
 
 ## Recent Posts:
