@@ -1,7 +1,7 @@
 # Threads in pytest
 ###### *22 July 2018*
 
-![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png)
+![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/480px-Python-logo-notext.svg.png)
 
 [pytest](https://docs.pytest.org/en/latest/) is a wonderful unit-testing framework for Python.
 Unfortunately, I recently learned it has some problems in dealing with threads(or at least doesn't behave the way I'd like or expect).
@@ -48,8 +48,12 @@ def test_queue_consumer():
     # assert something
 ```
 
-This caused some very mysterious deadlock, which led me down the dark road of deleting caches, running in a new virtualenv, on a different machine, etc.
-Finally, I ran the function in its normal context outside of pytest and saw the exception being raised, whih led to a quick fix.
+This caused some very mysterious deadlock, with the test/producer waiting on the queue to be emptied by a thread that has thrown an exception and will never return.
+Before realizing this, I ventured down the dark road of deleting caches, running in a new virtualenv, on a different machine, etc.
+Finally, I ran the function in its normal context outside of pytest and saw the exception being raised, which led to a quick fix.
 
+
+### Conclusion
 So far as I've read there's not a lot of threading support built into pytest.
-It would be nice to at least see the exceptions being raised, in non-main threads, though, and save a healthy bit of sanity.
+It would be nice to at least see the exceptions being raised in non-main threads, or just fail the test entirely.
+This issue aside, I'd still highly recommend pytest.
