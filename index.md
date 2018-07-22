@@ -1,7 +1,6 @@
 # Zengineering
 
-A set of documenting posts for interesting problems I've encountered.
-Also other things.
+A set of documenting posts for interesting engineering and development problems I've encountered.
 
 ## Recent Posts:
 - [Kotlin extension functions](_posts/2018-06-05-kotlin-extension-functions.md)
